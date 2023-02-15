@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "298079006661",
+    "firebase_url": "https://cuetplex-default-rtdb.firebaseio.com",
+    "project_id": "cuetplex",
+    "storage_bucket": "cuetplex.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298079006661:android:4e4998b32da8fbc7b765ac",
+        "android_client_info": {
+          "package_name": "com.example.cuetplex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298079006661-odsnig5vpohlsr6pamep6l5421mr0pkb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cuetplex",
+            "certificate_hash": "6ee075e94465d86325ca640ea275e662f90ec5fe"
+          }
+        },
+        {
+          "client_id": "298079006661-qp9s78oa5dkd5tks8jmprph1dg35a71g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcaaiyp7fAhtDXtAgRWLNfbmlSvoB17yI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298079006661-qp9s78oa5dkd5tks8jmprph1dg35a71g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

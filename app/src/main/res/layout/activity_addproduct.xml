@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/AppTheme.NoActionBar"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addproduct">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/select_photo"
+            android:layout_width="198dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="39dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorAccent"
+            app:srcCompat="@android:drawable/ic_menu_gallery" />
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/add_product_pic_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal" />
+        </HorizontalScrollView>
+        <EditText
+            android:id="@+id/product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/select_photo"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="41dp"
+            android:backgroundTint="@color/colorAccent"
+            android:ems="2"
+            android:hint="Product Name"
+            android:inputType="textMultiLine"
+            android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/product_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:backgroundTint="@color/colorAccent"
+        android:ems="2"
+        android:hint="Price"
+        android:inputType="number"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/product_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/product_price"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="31dp"
+        android:backgroundTint="@color/colorAccent"
+        android:ems="2"
+        android:hint="Product Details"
+        android:inputType="textMultiLine"
+        android:textStyle="bold" />
+        <Button
+            android:id="@+id/add_pic_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_details"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/side_nav_bar"
+            android:text="Add more picture"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+    <Button
+        android:id="@+id/add_product_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_details"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/side_nav_bar"
+        android:text="Add this product"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
